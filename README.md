@@ -1,4 +1,4 @@
-nodebb-theme-vanilla
+nodebb-theme-belzunce
 ====================
 
-Vanilla theme for NodeBB based on Bootstrap. Perfect for starting your own NodeBB themes!
+Belzunce theme for NodeBB based on Bootstrap. Perfect for starting your own NodeBB themes!
