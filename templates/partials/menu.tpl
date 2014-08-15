@@ -26,7 +26,7 @@
 					<li>
 						<a href="{relative_path}/unread"><i id="unread-count" class="fa fa-fw fa-inbox" data-content="0" title="[[global:header.unread]]"></i><span class="visible-xs-inline"> [[global:header.unread]]</span></a>
 					</li>
-					<!-- ENDIF loggedIn -->
+
 
 					<li>
 						<a href="{relative_path}/recent"><i class="fa fa-fw fa-clock-o" title="[[global:header.recent]]"></i><span class="visible-xs-inline"> [[global:header.recent]]</span></a>
@@ -42,6 +42,7 @@
 						<a href="{relative_path}/users"><i class="fa fa-fw fa-users" title="[[global:header.users]]"></i><span class="visible-xs-inline"> [[global:header.users]]</span></a>
 						<!-- ENDIF function.displayUsersLink -->
 					</li>
+					<!-- ENDIF loggedIn -->
 					<!-- IF isAdmin -->
 					<li>
 						<a href="{relative_path}/admin" target="_top"><i class="fa fa-fw fa-cogs" title="[[global:header.admin]]"></i><span class="visible-xs-inline"> [[global:header.admin]]</span></a>
